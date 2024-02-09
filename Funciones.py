@@ -17,17 +17,17 @@ def main():
             Num2 = int(input("Ingresar el numero 2"))
             Sumar = Num1+Num2
             print("El resultado de la suma es:",Sumar)
-        elif Opcion ==2:
+        elif Opcion == 2:
             print("Ha seleccionado opcion resta")
             Num1 = int(input("Ingresar el primer numero"))
             Num2 = int(input("Ingresar el numero 2"))
             Restar = Num1-Num2
             print("Ha seleccionado operacion resta",Restar)
-        elif Opcion ==3:
+        elif Opcion == 3:
             print("Ha seleccionado la opcion multipli")
-        elif Opcion ==4:
+        elif Opcion == 4:
             print("Ha seleccionado la opcion dividir")
-        elif Opcion ==5:
+        elif Opcion == 5:
             print("Hasta luego")
             break
         else:
