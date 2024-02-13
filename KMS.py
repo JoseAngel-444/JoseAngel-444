@@ -13,7 +13,7 @@ kms = [
 ]
 
 #Lista (“Totalkms”) con los kilómetros totales que realiza cada conductor
-Totalkms = [sum(Fila) for Fila in kms]
+Totalkms = [sum(Lista) for Lista in kms]
 
 # Mostrar la lista con los nombres de conductores y los kilómetros que han realizado
 for i in range(len(Nombreconductores)):
